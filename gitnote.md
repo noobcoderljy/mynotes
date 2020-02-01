@@ -32,3 +32,4 @@ HEAD~x表示前面第x个版本
 如果并不是你需要删除的文件,那么使用`git checkout`来撤销工作区的修改.  
 
 ## 远程仓库
+使用`ssh-keygen -t rsa -C "xxxx@email.com"`来生成秘钥.你可以在用户主目录找到.ssh文件,其中id_rsa是私钥,id_rsa_public是公钥,将公钥配置到github中就使用远程仓库了.  
