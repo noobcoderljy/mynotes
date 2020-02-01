@@ -33,3 +33,13 @@ HEAD~x表示前面第x个版本
 
 ## 远程仓库
 使用`ssh-keygen -t rsa -C "xxxx@email.com"`来生成秘钥.你可以在用户主目录找到.ssh文件,其中id_rsa是私钥,id_rsa_public是公钥,将公钥配置到github中就使用远程仓库了.  
+使用`git remote add origin url`将本地仓库连接到远程仓库中.其中origin是url的缩写,可以自己设定.  
+`git remote`可以列出已存在的远程分支.  
+`git remore -v|--verbose` 列出详细信息.
+
+`git push -u origin master`可以将本地master分支推送到远程,-u参数可以将本地master分支与远程分支连接起来,方便克隆与拉取.  
+`git clone url`可以将远程库克隆到本地.  
+
+
+
+   
